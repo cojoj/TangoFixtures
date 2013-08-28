@@ -1,44 +1,64 @@
-require 'faker.rb'
+require 'rubygems'
+require 'bundler/setup'
 
-# Generating 50 sample activities
-File.open("activities.yml", 'w') do |activity|
-  50.times do |n|
-    activity << "activity_#{n+1}:\n"
-    activity << "  id:#{n+1}\n"
-    activity << "  group_id:#{rand(1..50)}\n"
-    activity << "  tutor_id:#{rand(1..50)}\n"
-    activity << "  place_id:#{rand(1..20)}\n"
-    activity << "  category_id:#{rand(1..6)}\n"
-    activity << "  name:#{%w[KNP Programowanie Matematyka Ekonomia WF].sample}\n"
-    activity << "  state:1\n"
-    activity << "  start_at:#{Time.at(rand * Time.now.to_i).to_i}\n"
-    activity << "  end_at:#{Time.at(rand * Time.now.to_i).to_i}\n\n"
+require 'faker'
+
+FIXTURES_DIR = "./fixtures/"
+
+# Create 50 groups
+groups = {}.tap do |h|
+  (1..50).each do |n|
+    h["group_#{n}"] = {
+      id:   n,
+      name: "#{%w[KrDUIe KrDZZI KrDZGa KrDZIs KrDZRc KrDZAd].sample}#{(0...4).map { |i| rand(1..9) }.join.to_i}",
+    }  
   end
 end
 
-# Generating 50 groups
-File.open("groups.yml", 'w') do |group|
-  50.times do |n|
-    group << "grupa#{n+1}:\n"
-    group << "  id:#{n+1}\n"
-    group << "  name:#{%w[KrDUIe KrDZZI KrDZGa KrDZIs KrDZRc KrDZAd].sample}#{(0...4).map { |i| rand(1..9) }.join.to_i}\n\n"
+File.open( FIXTURES_DIR + "groups.yml", "w" ) { |f| f << groups.to_yaml }
+
+# Create 50 tutors
+tutors = {}.tap do |h|
+  (1..50).each do |n|
+    h["tutor_#{n}"] = {
+      id:   n,
+      name: "#{%w[Dr Mgr Prof Inż].sample} #{Faker::Name.first_name} #{Faker::Name.last_name}",
+    }  
   end
 end
 
-# Generating 20 locations
-File.open("places.yml", 'w') do |place|
-  20.times do |n|  
-    place << "lokal_#{n+1}:\n"
-    place << "  id:#{n+1}\n"
-    place << "  location:Paw. #{%w[A B C D E F G].sample} #{rand(1..300)}\n\n"
+File.open( FIXTURES_DIR + "tutors.yml", "w" ) { |f| f << tutors.to_yaml }
+
+# Create 20 places
+places = {}.tap do |h|
+  (1..20).each do |n|
+    h["place_#{n}"] = {
+      id:       n,
+      location: "Paw. #{%w[A B C D E F G].sample} #{rand(1..300)}",
+    }  
   end
 end
 
-# Generating 50 random tutors
-File.open("tutors.yml", 'w') do |tutor|
-  50.times do |n|
-    tutor << "wykladowca_#{n+1}:\n"
-    tutor << "  id:#{n+1}\n"
-    tutor << "  name:#{%w[Dr Mgr Prof Inż].sample} #{Faker::Name.first_name} #{Faker::Name.last_name}\n\n"
+File.open( FIXTURES_DIR + "places.yml", "w" ) { |f| f << places.to_yaml }
+
+# Create 200 activities
+activities = {}.tap do |h|
+  (1..50).each do |n|
+    
+    start_at = (Time.now.to_i * rand).to_i
+    
+    h["activity_#{n}"] = {
+      id:           n,
+      group_id:     rand(1..50),
+      tutor_id:     rand(1..50),
+      place_id:     rand(1..20),
+      category_id:  rand(1..6),
+      name:         "#{%w[KNP Programowanie Matematyka Ekonomia WF].sample}",
+      state:        1,
+      start_at:     start_at,
+      end_at:       start_at + 5400, # 1,5h later
+    }  
   end
 end
+
+File.open( FIXTURES_DIR + "activities.yml", "w" ) { |f| f << activities.to_yaml }
