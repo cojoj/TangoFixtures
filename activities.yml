@@ -1,0 +1,550 @@
+activity_1:
+  id:1
+  group_id:27
+  tutor_id:30
+  place_id:11
+  category_id:4
+  name:Ekonomia
+  state:1
+  start_at:836311992
+  end_at:1052866885
+
+activity_2:
+  id:2
+  group_id:1
+  tutor_id:10
+  place_id:3
+  category_id:6
+  name:Ekonomia
+  state:1
+  start_at:893615335
+  end_at:872042220
+
+activity_3:
+  id:3
+  group_id:26
+  tutor_id:31
+  place_id:15
+  category_id:4
+  name:Matematyka
+  state:1
+  start_at:613705376
+  end_at:214437108
+
+activity_4:
+  id:4
+  group_id:31
+  tutor_id:46
+  place_id:1
+  category_id:1
+  name:Programowanie
+  state:1
+  start_at:1028361363
+  end_at:1069733805
+
+activity_5:
+  id:5
+  group_id:17
+  tutor_id:3
+  place_id:3
+  category_id:6
+  name:Programowanie
+  state:1
+  start_at:1095169669
+  end_at:834304333
+
+activity_6:
+  id:6
+  group_id:49
+  tutor_id:7
+  place_id:4
+  category_id:2
+  name:WF
+  state:1
+  start_at:1072616473
+  end_at:895143255
+
+activity_7:
+  id:7
+  group_id:48
+  tutor_id:26
+  place_id:11
+  category_id:2
+  name:Programowanie
+  state:1
+  start_at:8057809
+  end_at:501076574
+
+activity_8:
+  id:8
+  group_id:41
+  tutor_id:20
+  place_id:9
+  category_id:4
+  name:Matematyka
+  state:1
+  start_at:277533617
+  end_at:86210247
+
+activity_9:
+  id:9
+  group_id:18
+  tutor_id:24
+  place_id:6
+  category_id:2
+  name:Matematyka
+  state:1
+  start_at:846237991
+  end_at:546859844
+
+activity_10:
+  id:10
+  group_id:18
+  tutor_id:44
+  place_id:8
+  category_id:5
+  name:Programowanie
+  state:1
+  start_at:1257962813
+  end_at:650838681
+
+activity_11:
+  id:11
+  group_id:30
+  tutor_id:36
+  place_id:20
+  category_id:4
+  name:Matematyka
+  state:1
+  start_at:929185239
+  end_at:26196151
+
+activity_12:
+  id:12
+  group_id:26
+  tutor_id:46
+  place_id:20
+  category_id:6
+  name:Matematyka
+  state:1
+  start_at:398002549
+  end_at:136301357
+
+activity_13:
+  id:13
+  group_id:46
+  tutor_id:21
+  place_id:15
+  category_id:4
+  name:Programowanie
+  state:1
+  start_at:154360850
+  end_at:73436561
+
+activity_14:
+  id:14
+  group_id:25
+  tutor_id:7
+  place_id:6
+  category_id:2
+  name:WF
+  state:1
+  start_at:520603796
+  end_at:762356479
+
+activity_15:
+  id:15
+  group_id:38
+  tutor_id:17
+  place_id:15
+  category_id:2
+  name:Ekonomia
+  state:1
+  start_at:1095724455
+  end_at:1289138622
+
+activity_16:
+  id:16
+  group_id:11
+  tutor_id:33
+  place_id:12
+  category_id:4
+  name:Programowanie
+  state:1
+  start_at:340920019
+  end_at:213662044
+
+activity_17:
+  id:17
+  group_id:22
+  tutor_id:46
+  place_id:6
+  category_id:4
+  name:KNP
+  state:1
+  start_at:55074900
+  end_at:491601469
+
+activity_18:
+  id:18
+  group_id:46
+  tutor_id:23
+  place_id:4
+  category_id:3
+  name:Ekonomia
+  state:1
+  start_at:999291679
+  end_at:1214811154
+
+activity_19:
+  id:19
+  group_id:49
+  tutor_id:4
+  place_id:4
+  category_id:1
+  name:KNP
+  state:1
+  start_at:954554563
+  end_at:474245157
+
+activity_20:
+  id:20
+  group_id:2
+  tutor_id:7
+  place_id:18
+  category_id:5
+  name:WF
+  state:1
+  start_at:635284918
+  end_at:1039879278
+
+activity_21:
+  id:21
+  group_id:8
+  tutor_id:30
+  place_id:9
+  category_id:3
+  name:WF
+  state:1
+  start_at:1332624942
+  end_at:1193223824
+
+activity_22:
+  id:22
+  group_id:20
+  tutor_id:46
+  place_id:2
+  category_id:3
+  name:KNP
+  state:1
+  start_at:931087732
+  end_at:1039029860
+
+activity_23:
+  id:23
+  group_id:23
+  tutor_id:50
+  place_id:4
+  category_id:1
+  name:Matematyka
+  state:1
+  start_at:652933644
+  end_at:1044646712
+
+activity_24:
+  id:24
+  group_id:43
+  tutor_id:34
+  place_id:7
+  category_id:4
+  name:KNP
+  state:1
+  start_at:955936983
+  end_at:1213196887
+
+activity_25:
+  id:25
+  group_id:42
+  tutor_id:38
+  place_id:16
+  category_id:4
+  name:Matematyka
+  state:1
+  start_at:792381398
+  end_at:450296257
+
+activity_26:
+  id:26
+  group_id:24
+  tutor_id:6
+  place_id:9
+  category_id:4
+  name:WF
+  state:1
+  start_at:622607790
+  end_at:1018642557
+
+activity_27:
+  id:27
+  group_id:44
+  tutor_id:15
+  place_id:18
+  category_id:3
+  name:KNP
+  state:1
+  start_at:283078967
+  end_at:144030269
+
+activity_28:
+  id:28
+  group_id:33
+  tutor_id:30
+  place_id:14
+  category_id:5
+  name:Ekonomia
+  state:1
+  start_at:435282263
+  end_at:277160044
+
+activity_29:
+  id:29
+  group_id:23
+  tutor_id:25
+  place_id:14
+  category_id:2
+  name:KNP
+  state:1
+  start_at:579883321
+  end_at:1207525258
+
+activity_30:
+  id:30
+  group_id:41
+  tutor_id:7
+  place_id:16
+  category_id:3
+  name:Matematyka
+  state:1
+  start_at:790422624
+  end_at:742084107
+
+activity_31:
+  id:31
+  group_id:45
+  tutor_id:26
+  place_id:12
+  category_id:5
+  name:Programowanie
+  state:1
+  start_at:1174512994
+  end_at:1275389245
+
+activity_32:
+  id:32
+  group_id:38
+  tutor_id:15
+  place_id:2
+  category_id:2
+  name:Ekonomia
+  state:1
+  start_at:1142570443
+  end_at:354780467
+
+activity_33:
+  id:33
+  group_id:33
+  tutor_id:31
+  place_id:12
+  category_id:6
+  name:WF
+  state:1
+  start_at:962865820
+  end_at:856250388
+
+activity_34:
+  id:34
+  group_id:21
+  tutor_id:10
+  place_id:18
+  category_id:2
+  name:WF
+  state:1
+  start_at:798559869
+  end_at:36602447
+
+activity_35:
+  id:35
+  group_id:21
+  tutor_id:14
+  place_id:5
+  category_id:2
+  name:Programowanie
+  state:1
+  start_at:959009268
+  end_at:513100069
+
+activity_36:
+  id:36
+  group_id:41
+  tutor_id:16
+  place_id:11
+  category_id:5
+  name:Matematyka
+  state:1
+  start_at:409299078
+  end_at:1126743186
+
+activity_37:
+  id:37
+  group_id:30
+  tutor_id:32
+  place_id:13
+  category_id:2
+  name:KNP
+  state:1
+  start_at:943109018
+  end_at:1204641500
+
+activity_38:
+  id:38
+  group_id:4
+  tutor_id:33
+  place_id:10
+  category_id:1
+  name:WF
+  state:1
+  start_at:274492175
+  end_at:744009468
+
+activity_39:
+  id:39
+  group_id:43
+  tutor_id:27
+  place_id:2
+  category_id:4
+  name:Matematyka
+  state:1
+  start_at:1117606040
+  end_at:993887580
+
+activity_40:
+  id:40
+  group_id:41
+  tutor_id:4
+  place_id:11
+  category_id:2
+  name:WF
+  state:1
+  start_at:1101108786
+  end_at:1254999970
+
+activity_41:
+  id:41
+  group_id:1
+  tutor_id:9
+  place_id:2
+  category_id:3
+  name:Matematyka
+  state:1
+  start_at:255306695
+  end_at:114748005
+
+activity_42:
+  id:42
+  group_id:34
+  tutor_id:18
+  place_id:17
+  category_id:1
+  name:Programowanie
+  state:1
+  start_at:880716991
+  end_at:432525181
+
+activity_43:
+  id:43
+  group_id:26
+  tutor_id:1
+  place_id:11
+  category_id:1
+  name:Matematyka
+  state:1
+  start_at:1345792369
+  end_at:165948234
+
+activity_44:
+  id:44
+  group_id:46
+  tutor_id:5
+  place_id:8
+  category_id:6
+  name:Ekonomia
+  state:1
+  start_at:1023721113
+  end_at:397250376
+
+activity_45:
+  id:45
+  group_id:27
+  tutor_id:19
+  place_id:11
+  category_id:5
+  name:Programowanie
+  state:1
+  start_at:40885014
+  end_at:1216478944
+
+activity_46:
+  id:46
+  group_id:16
+  tutor_id:50
+  place_id:4
+  category_id:4
+  name:Matematyka
+  state:1
+  start_at:1001309584
+  end_at:97607917
+
+activity_47:
+  id:47
+  group_id:21
+  tutor_id:2
+  place_id:18
+  category_id:4
+  name:Programowanie
+  state:1
+  start_at:50071705
+  end_at:1372453883
+
+activity_48:
+  id:48
+  group_id:27
+  tutor_id:41
+  place_id:7
+  category_id:5
+  name:Ekonomia
+  state:1
+  start_at:810616590
+  end_at:677352027
+
+activity_49:
+  id:49
+  group_id:36
+  tutor_id:14
+  place_id:15
+  category_id:3
+  name:KNP
+  state:1
+  start_at:195511364
+  end_at:493652850
+
+activity_50:
+  id:50
+  group_id:21
+  tutor_id:9
+  place_id:13
+  category_id:6
+  name:KNP
+  state:1
+  start_at:231023525
+  end_at:1185429073
+
